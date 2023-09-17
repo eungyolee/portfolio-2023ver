@@ -1,0 +1,24 @@
+.header {
+  height: 60px;
+  line-height: 60px;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  margin-top: 20px;
+  font-family: "Pretendard-Light", sans-serif;
+}
+
+.header_items {
+  display: flex;
+  justify-content: center;
+}
+
+.header_items > a {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0 20px;
+}

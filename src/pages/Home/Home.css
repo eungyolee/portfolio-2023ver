@@ -1,0 +1,125 @@
+.light {
+  font-family: 'Pretendard-Light', sans-serif;
+}
+
+.home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileCard {
+  width: 300px;
+  height: 750px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 90px;
+}
+
+.profileImage {
+  width: 325px;
+  height: 325px;
+  border-radius: 50%;
+  border: 1px solid #292929;
+  background-image: url("../../../public/images/Profile-2023.png");
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+}
+
+.profileImage:hover {
+  box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25),
+    0px 6px 20px 0px rgba(0, 0, 0, 0.19);
+  transition: 0.3s;
+  transform: scale(1.02);
+}
+
+.myName {
+  font-size: 45px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.introduce {
+  color: #b8b8b8;
+  font-family: "Pretendard-Light", sans-serif;
+  font-size: 24px;
+  margin-top: 8px;
+}
+
+.helloWorld {
+  font-size: 54px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+.introduceText {
+  font-family: "Pretendard-Light", sans-serif;
+  font-size: 22px;
+  margin-top: 8px;
+}
+
+.contactMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.contactMe > li {
+  margin: 0 8px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  list-style-type: none;
+}
+
+.contactMe > li:hover {
+  transform: scale(1.1);
+}
+
+.contactMe > li > a {
+  font-size: 40px;
+  color: white;
+}
+
+.toSkills {
+  position: absolute;
+  width: 170px;
+  margin-top: 100px;
+  font-size: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  visibility: hidden;
+  opacity: 0;
+}
+
+div.toSkills.visibled > svg {
+  font-size: 40px;
+  animation: 1.5s ease-in-out 0s infinite normal none running bounce;
+  cursor: pointer;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
+
+.visibled {
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.5s ease;
+}
