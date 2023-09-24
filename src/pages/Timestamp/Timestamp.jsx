@@ -11,6 +11,7 @@ const Timestamp = () => {
         <div className="timestamp_item">
           <h2 className="timestamp_year" id="ty-mobile">2023</h2>
           <ul className="timestamp_lists">
+            <li className="timestamp_list" id="tl-mobile">(현재) 선린인터넷고등학교 소프트웨어과 준비 중</li>
             <li className="timestamp_list" id="tl-mobile">(August 2023) 염경중학교 학생기자단 홈페이지 완성</li>
             <li className="timestamp_list" id="tl-mobile">(July 2023) 선린인터넷고등학교 특별교육 프로그래밍 과정 수료</li>
             <li className="timestamp_list" id="tl-mobile">(February 2023) 구름 하이스쿨 알고리즘 캠프 수료</li>
