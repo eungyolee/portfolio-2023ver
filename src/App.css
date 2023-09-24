@@ -29,3 +29,53 @@ body {
 }
 
 /* 모바일 860, 890 */
+@media screen and (max-height: 890px) {
+  .copyright {
+    display: none;
+  }
+
+  #cm-mobile {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .home {
+    flex-direction: column;
+  }
+
+  #profileCard-mobile {
+    margin-right: 0;
+    height: auto;
+  }
+
+  #pi-mobile {
+    width: 250px;
+    height: 250px;
+  }
+
+  #hw-mobile {
+    font-size: 2.5rem;
+  }
+  
+  #skills > div > img {
+    width: 50px;
+  }
+
+  #timestamp {
+    justify-content: start;
+  }
+
+  .timestamp_items {
+    width: 95%;
+    margin-top: 100px;
+  }
+
+  #ty-mobile {
+    font-size: 1.5rem;
+  }
+
+  #tl-mobile {
+    font-size: 1rem;
+  }
+}

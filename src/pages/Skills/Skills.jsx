@@ -5,7 +5,7 @@ import Footer from "../../components/Footer/Footer";
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <Header />
       <p>개발 언어 및 도구</p>
       <div className="programmingLanguages">

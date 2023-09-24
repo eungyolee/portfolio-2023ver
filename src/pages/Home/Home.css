@@ -55,14 +55,14 @@
 }
 
 .helloWorld {
-  font-size: 54px;
+  font-size: 3rem;
   margin-top: 0px;
   margin-bottom: 8px;
 }
 
 .introduceText {
   font-family: "Pretendard-Light", sans-serif;
-  font-size: 22px;
+  font-size: 1.25rem;
   margin-top: 8px;
 }
 
