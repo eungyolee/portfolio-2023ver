@@ -40,6 +40,7 @@ body {
 }
 
 @media screen and (max-width: 860px) {
+
   .home {
     flex-direction: column;
     margin-top: 70px;
