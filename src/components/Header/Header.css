@@ -26,3 +26,10 @@
 a:hover {
   text-decoration: underline;
 }
+
+@media screen and (max-height: 890px) {
+  .header {
+    height: 30px;
+    line-height: 30px;
+  }
+}
