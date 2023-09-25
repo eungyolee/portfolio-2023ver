@@ -46,7 +46,7 @@ const Home = () => {
       </div>
       <div className="main">
         <div className="introduceMe">
-          <p className="helloWorld" id="hw-mobile">Hello, world! 👋</p>
+          <p className="helloWorld" id="hw-mobile">Hello, world!👋</p>
           <p className="introduceText">
             저는 개발자를 꿈꾸며 노력하는 학생 <b>이은교</b>입니다!
           </p>
