@@ -50,7 +50,7 @@ const Timestamp = () => {
           </ul>
         </div>
         <div className="timestamp_project">
-          자세한 프로젝트들은 <a href="https://github.com/eungyolee?tab=repositories" target="_blank" rel="noreferrer">여기</a>에서 확인해주세요.
+          자세한 프로젝트들은 <a href="https://marked-fern-cd3.notion.site/19cc2c4dffe44f55b55e0f70dfd21b1a?v=ee0f25f2cbb847929f01651225a95597&pvs=4" target="_blank" rel="noreferrer">여기</a>에서 확인해주세요.
         </div>
       </div>
       <Footer />
