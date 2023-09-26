@@ -22,11 +22,15 @@
 
 .item {
   width: 100px;
+  margin-right: 20px;
+}
+
+.item:last-child {
+  margin-right: 0;
 }
 
 .item > img {
-  margin-right: 10px;
-  width: 75px;
+  width: 100px;
   margin: auto;
   margin-bottom: 5px;
   display: block;
@@ -34,4 +38,9 @@
 
 .item > span {
   text-align: center;
+  font-family: "Pretendard-Light";
+}
+
+span > b {
+  font-family: "Pretendard-SemiBold";
 }
