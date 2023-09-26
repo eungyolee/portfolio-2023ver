@@ -61,6 +61,11 @@ body {
 
   #item {
     width: 75px;
+    margin-right: 10px;
+  }
+
+  #item:last-child {
+    margin-right: 0;
   }
   
   #item > img {
