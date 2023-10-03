@@ -49,14 +49,14 @@ export const Year2022 = [
     when: "July 2022",
     innerLink: "염경중학교 위키",
     content: " 개발",
-    href: "https://ymgng-wiki.eungyolee.studio"
+    href: "https://ymgng-wiki.eungyolee.tech"
   },
   {
     id: 3,
     when: "June 2022",
     innerLink: "역사 문제 사이트",
     content: " 개발",
-    href: "https://history-exam.eungyolee.studio"
+    href: "https://history-exam.eungyolee.tech"
   }
 ];
 
@@ -66,7 +66,7 @@ export const Year2021 = [
     when: "September 2021",
     innerLink: "Momentum 클론",
     content: " 코딩",
-    href: "https://eungyolee.studio/momentum-clone"
+    href: "https://eungyolee.tech/momentum-clone"
   },
   {
     id: 2,
