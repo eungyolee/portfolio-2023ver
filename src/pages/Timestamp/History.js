@@ -1,9 +1,26 @@
+export const Year2024 = [
+  {
+    id: 1,
+    when: "January 2024",
+    innerLink: "선린인터넷고등학교 신입생 특별교육",
+    content: " 수료",
+    href: "https://github.com/eungyolee/sunrin-c-project"
+  },
+  {
+    id: 2,
+    when: "January 2024",
+    innerLink: "2025년 카운트다운",
+    content: " 완성",
+    href: "https://eungyolee.tech/2025-countdown"
+  }
+];
+
 export const Year2023 = [
   {
     id: 1,
-    when: "현재",
+    when: "November 2023",
     innerLink: "",
-    content: "선린인터넷고등학교 소프트웨어과 입학 준비 중",
+    content: "선린인터넷고등학교 소프트웨어과 합격",
     href: ""
   },
   {
@@ -75,28 +92,21 @@ export const Year2021 = [
     content: " 개발",
     href: "https://github.com/eungyolee/country-test"
   },
-  {
-    id: 3,
-    when: "January 2021 ~ May 2022",
-    innerLink: "KGITBANK 학원",
-    content: " 수강",
-    href: "https://www.xn--kg-jz1j901a9vcw7s0ie.kr/"
-  }
 ];
 
-export const Year2020 = [
-  {
-    id: 1,
-    when: "July 2020",
-    innerLink: "Github",
-    content: " 가입",
-    href: "https://github.com/eungyolee"
-  },
-  {
-    id: 2,
-    when: "April 2020",
-    innerLink: "",
-    content: "코딩 시작",
-    href: ""
-  }
-];
+// export const Year2020 = [
+//   {
+//     id: 1,
+//     when: "July 2020",
+//     innerLink: "Github",
+//     content: " 가입",
+//     href: "https://github.com/eungyolee"
+//   },
+//   {
+//     id: 2,
+//     when: "April 2020",
+//     innerLink: "",
+//     content: "코딩 시작",
+//     href: ""
+//   }
+// ];
