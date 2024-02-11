@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Tooltip } from "react-tooltip";
@@ -7,26 +7,28 @@ import Footer from "../../components/Footer/Footer";
 import ContactMe from "./ContactMe";
 
 const Home = () => {
-  let clicked = 0;
-  let how = 0
+  const [clicked, setClicked] = useState(1);
+  const [how, setHow] = useState(1);
+  const date = new Date();
 
   const profileImageClicked = () => {
-    clicked += 1;
+    setClicked(clicked + 1);
+    console.log(clicked);
     if (clicked % 5 === 0) {
-      how += 1;
+      setHow(how + 1);
       if (how <= 2) {
-        alert("프로필 사진은 @l_sieun_l님이 그려주셨습니다!");
+        alert("프로필 사진은 @fldpdlqslek님이 그려주셨습니다!");
       } else if (how === 3) {
-        alert("Copyright 2023. 이은교 all rights reserved.")
+        alert(`Copyright 2023 - ${ date.getFullYear() }. 이은교 all rights reserved.`)
       }
       else if (how % 20 === 0) {
-        alert(`이 사진을 ${clicked}번이나 눌러주셨군요! 사진이 닳겠어요 :)`)
+        alert(`이 사진을 ${clicked}번이나 눌러주셨네요! 사진이 닳겠어요 :)`)
       } 
       else {
         alert(`이 사진을 ${clicked}번이나 클릭해주셨군요!`);
       }
     }
-  };
+  }
 
   return (
     <div className="home">
